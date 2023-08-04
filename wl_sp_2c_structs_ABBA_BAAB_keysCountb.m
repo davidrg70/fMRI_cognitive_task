@@ -1,3 +1,6 @@
+% Created by David Garnica, david.garnica@med.uni-goettingen.de
+% October 2020, Universit√§tsmedizin G√∂ttingen, Neurology Department
+
 % 1-1 ABAB ABAB BABA BABA
 % 1-2 BABA BABA ABAB ABAB
 
@@ -112,29 +115,29 @@ HideCursor();
             Screen('FillRect', window,bgcolor); Screen('TextSize', window, 24); 
             Screen('FillOval', window, oval_color1, button1); 
             Screen('FillOval', window, oval_color2, button2);
-            DrawFormattedText(window, 'Gr¸n: i ist im Wort oder das kleines Bild ist im groﬂem Bild', 'center', center(2), textcolor);
-            DrawFormattedText(window, 'Rot: i ist NICHT im Wort oder das kleines Bild ist NICHT im groﬂem Bild', 'center', center(2) + 40, textcolor);
+            DrawFormattedText(window, 'Gr√ºn: i ist im Wort oder das kleines Bild ist im gro√üem Bild', 'center', center(2), textcolor);
+            DrawFormattedText(window, 'Rot: i ist NICHT im Wort oder das kleines Bild ist NICHT im gro√üem Bild', 'center', center(2) + 40, textcolor);
             
         case FRACTAL && GREENRight == 1
             Screen('FillRect', window,bgcolor); Screen('TextSize', window, 24); 
             Screen('FillOval', window, oval_color1, button1); 
             Screen('FillOval', window, oval_color2, button2);
-            DrawFormattedText(window, 'Gr¸n: das kleines Bild ist im groﬂem Bild oder i ist im Wort', 'center', center(2), textcolor);
-            DrawFormattedText(window, 'Rot: das kleines Bild ist NICHT im groﬂem Bild oder i ist NICHT im Wort', 'center', center(2) + 40, textcolor);
+            DrawFormattedText(window, 'Gr√ºn: das kleines Bild ist im gro√üem Bild oder i ist im Wort', 'center', center(2), textcolor);
+            DrawFormattedText(window, 'Rot: das kleines Bild ist NICHT im gro√üem Bild oder i ist NICHT im Wort', 'center', center(2) + 40, textcolor);
         
         case VOWEL && GREENLeft == 1
             Screen('FillRect', window,bgcolor); Screen('TextSize', window, 24); 
             Screen('FillOval', window, oval_color2, button1); 
             Screen('FillOval', window, oval_color1, button2);
-            DrawFormattedText(window, 'Gr¸n: i ist im Wort oder das kleines Bild ist im groﬂem Bild', 'center', center(2), textcolor);
-            DrawFormattedText(window, 'Rot: i ist NICHT im Wort oder das kleines Bild ist NICHT im groﬂem Bild', 'center', center(2) + 40, textcolor);
+            DrawFormattedText(window, 'Gr√ºn: i ist im Wort oder das kleines Bild ist im gro√üem Bild', 'center', center(2), textcolor);
+            DrawFormattedText(window, 'Rot: i ist NICHT im Wort oder das kleines Bild ist NICHT im gro√üem Bild', 'center', center(2) + 40, textcolor);
             
         case FRACTAL && GREENLeft == 1
             Screen('FillRect', window,bgcolor); Screen('TextSize', window, 24); 
             Screen('FillOval', window, oval_color2, button1); 
             Screen('FillOval', window, oval_color1, button2);
-            DrawFormattedText(window, 'Gr¸n: i ist im Wort oder das kleines Bild ist im groﬂem Bild', 'center', center(2), textcolor);
-            DrawFormattedText(window, 'Rot: i ist NICHT im Wort oder das kleines Bild ist NICHT im groﬂem Bild', 'center', center(2) + 40, textcolor);
+            DrawFormattedText(window, 'Gr√ºn: i ist im Wort oder das kleines Bild ist im gro√üem Bild', 'center', center(2), textcolor);
+            DrawFormattedText(window, 'Rot: i ist NICHT im Wort oder das kleines Bild ist NICHT im gro√üem Bild', 'center', center(2) + 40, textcolor);
     end
     Screen('Flip',window);
     WaitSecs(8);
@@ -321,7 +324,7 @@ for iBlock=1:num_blocks(useCondition)
             % PRINTS EXPERIMENT DATA IN COMMAND WINDOW
             writelog(strcat('KEY Keycode ',KbName(keypressed),' Correct ',num2str(correct),' Reaction time ', num2str(rt), ' Accumulated time', num2str(at))); % Accumulated time is time since scanner start
             
-            % STRUCTURES TO COLLECT BEHAVIORAL DATA (DATA IS NOT SAVED WITH THE SAME SUBJECT¥S REAL SEQUENCE) - it didn¥t work neither with {(iItem, iBlock, iDir)}
+            % STRUCTURES TO COLLECT BEHAVIORAL DATA (DATA IS NOT SAVED WITH THE SAME SUBJECT¬¥S REAL SEQUENCE) - it didn¬¥t work neither with {(iItem, iBlock, iDir)}
             imagesDirectory{iItem, iBlock} = imagesDir;
             results.imagesDirectory = imagesDirectory;
             
