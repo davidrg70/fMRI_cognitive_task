@@ -1,3 +1,6 @@
+% Created by David Garnica, david.garnica@med.uni-goettingen.de
+% October 2020, UniversitÃ¤tsmedizin GÃ¶ttingen, Neurology Department
+
 % Version 1.3 JUST ENCODING AND RETRIEVAL
 
 % Experimental parameters
@@ -221,7 +224,7 @@ for block = 1:length(blocks)
     if GREENRight == 1
             Screen('FillRect', mainwin, bgcolor);
             Screen('TextSize', mainwin, 24);
-            instructions = 'ROTE TASTE für falsche Position wie vorher, GRÜNE TASTE für gleiche Position wie vorher\n';
+            instructions = 'ROTE TASTE fÃ¼r falsche Position wie vorher, GRÃœNE TASTE fÃ¼r gleiche Position wie vorher\n';
             DrawFormattedText(mainwin, instructions,'center','center', textcolor);
             Screen('FillOval', mainwin ,buttonColor ,button);
             Screen('Flip', mainwin);
@@ -230,7 +233,7 @@ for block = 1:length(blocks)
     elseif GREENLeft == 1
             Screen('FillRect', mainwin, bgcolor);
             Screen('TextSize', mainwin, 24);
-            instructions = 'GRÜNE TASTE für gleiche Position wie vorher, ROTE TASTE für falsche Position wie vorher\n';
+            instructions = 'GRÃœNE TASTE fÃ¼r gleiche Position wie vorher, ROTE TASTE fÃ¼r falsche Position wie vorher\n';
             DrawFormattedText(mainwin, instructions,'center','center', textcolor);
             Screen('FillOval', mainwin ,invertedbuttonColor ,button);
             Screen('Flip', mainwin);
