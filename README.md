@@ -1,5 +1,5 @@
-# fMRI_processing
-fMRI processing scripts (SPM)
+# fMRI_cognitive_tasks
+Scripts of phonological or verbal working memory tasks for fMRI (written in Matlab and using Psychtoolbox functions).
 
 The "wl_sp_2c_structs_ABBA_BAAB_keysCountb.m" and "wl_sp_2c_structs_ABBA_BAAB_keysCountb_mirrored_EEGtriggers.m" scripts are replicas of the PHONOLOGICAL TASK published by Ebner et al (2011) "Assessing language and visuospatial functions with one task – A dual use approach to performing fMRI in children"
 
