@@ -1,5 +1,5 @@
 % Created by David Garnica, david.garnica@med.uni-goettingen.de
-% October 2020, Universitätsmedizin Göttingen, Neurology Department
+% 2020, Universitätsmedizin Göttingen, Neurology Department
 
 % Version 1.3 JUST ENCODING AND RETRIEVAL
 
