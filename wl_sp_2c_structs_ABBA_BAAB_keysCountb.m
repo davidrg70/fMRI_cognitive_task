@@ -1,5 +1,5 @@
 % Created by David Garnica, david.garnica@med.uni-goettingen.de
-% October 2020, Universitätsmedizin Göttingen, Neurology Department
+% 2020, Universitätsmedizin Göttingen, Neurology Department
 
 % 1-1 ABAB ABAB BABA BABA
 % 1-2 BABA BABA ABAB ABAB
